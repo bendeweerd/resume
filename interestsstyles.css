@@ -1,0 +1,36 @@
+#footer {
+  border: none;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.interests-title {
+  padding-top: 3rem;
+}
+
+.interest-img {
+  width: 100%;
+  position: relative;
+}
+
+.interest-inner {
+  position: absolute;
+  min-width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.interest-icon {
+  width: 50%;
+}
+
+.interest-text {
+  margin-top: 2rem;
+}
