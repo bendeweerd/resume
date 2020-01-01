@@ -72,7 +72,7 @@ a.contact-link {
   text-decoration: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .page-title {
     padding-top: 5rem;
   }

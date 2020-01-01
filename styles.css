@@ -94,7 +94,7 @@ button:focus {
   background-color: #0484d9;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   h1 {
     font-size: 3rem;
   }
