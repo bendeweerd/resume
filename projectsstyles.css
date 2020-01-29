@@ -15,6 +15,11 @@ h3 {
   line-height: 1.75;
 }
 
+.carousel-image{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
 .projects-title {
   padding-top: 3rem;
 }

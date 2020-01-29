@@ -74,6 +74,12 @@ button:focus {
 .card {
   background-color: #393e46;
   margin-bottom: 1rem;
+  border-radius: 20px;
+}
+
+.card-img-top{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 #footer {
