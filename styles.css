@@ -35,6 +35,10 @@ a:hover {
   z-index: 2;
 }
 
+.nav-item {
+  text-align: right;
+}
+
 .benpic {
   width: 20rem;
   border-radius: 100%;
@@ -69,46 +73,42 @@ a:hover {
   border-radius: 15px;
 }
 
-.card-img-top{
+.card-img-top {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
 
 /* !!!!!Experiment Begins Here!!!!! */
-
-.responsive-cards{
+.responsive-cards {
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
 @media (max-width: 576px) {
-    .card-columns {
-        column-count: 1;
-    }
+  .card-columns {
+    column-count: 1;
+  }
 }
 
 @media (min-width: 576px) {
-    .card-columns {
-        column-count: 2;
-    }
+  .card-columns {
+    column-count: 2;
+  }
 }
 
 @media (min-width: 1024px) {
-    .card-columns {
-        column-count: 3;
-    }
+  .card-columns {
+    column-count: 3;
+  }
 }
 
 @media (min-width: 1600px) {
-    .card-columns {
-        column-count: 4;
-    }
+  .card-columns {
+    column-count: 4;
+  }
 }
 
-
-
 /* !!!!!Experiment Ends Here!!!!! */
-
 #footer {
   border-top: 2px solid #0484d9;
 }
@@ -131,7 +131,7 @@ a:hover {
 }
 
 .carousel .carousel-item {
-    transition-duration: 2.5s;
+  transition-duration: 2.5s;
 }
 
 @media (max-width: 800px) {
@@ -139,7 +139,7 @@ a:hover {
     font-size: 3rem;
   }
 
-  #intro{
+  #intro {
     padding-top: 4rem;
   }
 
