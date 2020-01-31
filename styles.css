@@ -27,12 +27,6 @@ a:hover {
   text-decoration: none;
 }
 
-button:focus {
-  /* outline: none; */
-}
-
-
-
 #navbar {
   background-color: #292b2c;
   border-bottom: 2px solid #0484d9;
@@ -41,21 +35,17 @@ button:focus {
   z-index: 2;
 }
 
-
 .benpic {
   width: 20rem;
   border-radius: 100%;
 }
 
-.introduction {
+.introduction-text {
   padding: 3% 20%;
   font-size: 2.5rem;
 }
 
-
-
-#opening {
-  text-align: center;
+#intro {
   color: #000;
   padding-top: 3rem;
 }
@@ -110,16 +100,20 @@ button:focus {
     font-size: 3rem;
   }
 
+  #intro{
+    padding-top: 4rem;
+  }
+
   .benpic {
     width: 15rem;
   }
 
-  .introduction {
+  .introduction-text {
     font-size: 1.5rem;
+    padding: 3% 10%;
   }
 
-
-  /* .card{
-    margin-bottom: 0;
+  /* .card-body{
+    padding: .75rem;
   } */
 }
