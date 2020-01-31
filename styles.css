@@ -74,6 +74,41 @@ a:hover {
   border-top-right-radius: 15px;
 }
 
+/* !!!!!Experiment Begins Here!!!!! */
+
+.responsive-cards{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+@media (max-width: 576px) {
+    .card-columns {
+        column-count: 1;
+    }
+}
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 1024px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
+
+@media (min-width: 1600px) {
+    .card-columns {
+        column-count: 4;
+    }
+}
+
+
+
+/* !!!!!Experiment Ends Here!!!!! */
+
 #footer {
   border-top: 2px solid #0484d9;
 }
@@ -93,6 +128,10 @@ a:hover {
 
 .footer-icon:hover {
   background-color: #0484d9;
+}
+
+.carousel .carousel-item {
+    transition-duration: 2.5s;
 }
 
 @media (max-width: 800px) {
