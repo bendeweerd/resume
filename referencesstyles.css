@@ -2,24 +2,30 @@ h2 {
   font-weight: normal;
 }
 
-.references-title {
+h1{
+  padding-bottom: 0;
+}
+
+/* .references-title {
   color: #fff;
   padding-bottom: 2rem;
+} */
+
+#intro{
+  padding-bottom: 1rem;
 }
 
 .reference-link {
   font-weight: bold;
 }
 
-.email-text {
-  margin-top: 1.5rem;
-}
+
 
 #references {
-  border-top: 2px solid #0484d9;
-  padding-top: 3rem;
+  /* border-top: 2px solid #0484d9; */
+  /* padding-top: 0rem; */
   padding-bottom: 3rem;
-  background-color: #292b2c;
+  background-color: #000;
 }
 
 #contact {

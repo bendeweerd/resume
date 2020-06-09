@@ -1,12 +1,14 @@
 body {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+  background-color: #000;
+  color: #fff;
 }
 
 h1 {
   font-size: 5rem;
   font-weight: 400;
-  padding: 4% 0;
+  padding: 4% 0 3% 0;
 }
 
 h2 {
@@ -28,7 +30,7 @@ a:hover {
 }
 
 #navbar {
-  background-color: #292b2c;
+  background-color: black;
   border-bottom: 2px solid #0484d9;
   width: 100%;
   position: fixed;
@@ -39,10 +41,20 @@ a:hover {
   text-align: right;
 }
 
+.nav-link{
+  color: #fff !important;
+}
+
+.nav-link:hover{
+  color: #0484d9 !important;
+}
+
 .benpic {
   width: 20rem;
   border-radius: 100%;
 }
+
+
 
 .introduction-text {
   padding: 3% 20%;
@@ -50,12 +62,13 @@ a:hover {
 }
 
 #intro {
-  color: #000;
+  color: #fff;
+  background-color: #000;
   padding-top: 3rem;
 }
 
 #skills {
-  background-color: #292b2c;
+  background-color: #000;
   border-top: 2px solid #0484d9;
 }
 
@@ -68,9 +81,10 @@ a:hover {
 }
 
 .card {
-  background-color: #393e46;
+  background-color: #000;
   margin-bottom: 1rem;
   border-radius: 15px;
+  border: 2px solid white;
 }
 
 .card-img-top {
@@ -111,23 +125,25 @@ a:hover {
 /* !!!!!Experiment Ends Here!!!!! */
 #footer {
   border-top: 2px solid #0484d9;
+  background-color: #000;
+  color: #fff;
 }
 
 .footer-link {
   display: inline-block;
 }
 
-.footer-icon {
-  width: 4rem;
+
+
+.footer-text {
   margin: 1rem;
   padding: 0.5rem;
-  background-color: #fff;
+/*  background-color: #fff;*/
   transition: .75s;
-  border-radius: 15px;
 }
 
-.footer-icon:hover {
-  background-color: #0484d9;
+.footer-text:hover {
+  color: #0484d9;
 }
 
 .carousel .carousel-item {

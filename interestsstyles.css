@@ -14,17 +14,19 @@ h3 {
 .interest-img {
   width: 100%;
   position: relative;
+  /* padding-top: 3rem; */
 }
 
 .interest-inner {
   position: absolute;
-  min-width: 50%;
+  min-width: 75%;
+  min-height: 75%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.5);
   padding: 2rem;
-  border-radius: 15px;
+  /* border-radius: 15px; */
 }
 
 .interest-icon {
@@ -33,4 +35,5 @@ h3 {
 
 .interest-text {
   margin-top: 2rem;
+  color: #000;
 }
