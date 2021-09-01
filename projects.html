@@ -33,7 +33,7 @@
             <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="education.html">Education</a>
+            <a class="nav-link" href="experience.html">Experience</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="">Projects</a>
@@ -49,13 +49,9 @@
     </nav>
   </section>
 
-  <section id="intro">
+  <section class = "intro"">
     <h1>Projects</h1>
   </section>
-  <!--
-  <div class="projects-title">
-
-  </div> -->
 
   <section id="projects">
 
@@ -63,6 +59,27 @@
     <div class="projects">
       <div class="responsive-cards">
         <div class="card-columns">
+
+          <div class="card text-white mb-3">
+            <div id="project-carousel" class="carousel slide card-img-top carousel-fade" data-ride="carousel" data-interval="5000">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100 carousel-image" src="images/football/lineman.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100 carousel-image" src="images/football/lineman_gearbox.jpg" alt="second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100 carousel-image" src="images/football/lineman_bracket.jpg" alt="Third slide">
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Calvin University Robotic Football Team</h3>
+              <p class="card-text">I lead Calvin's Robotic Football Team as the Chief Engineer. We are now in our second semester of work and are
+                excited to participate in the challenge this season! Read more about the challenge <a class="project-link" target="_blank" href="https://collegeroboticfootball.org/">here.</a></p>
+            </div>
+          </div>
 
           <div class="card text-white mb-3">
             <div id="project-carousel" class="carousel slide card-img-top carousel-fade" data-ride="carousel" data-interval="5000">
@@ -89,9 +106,9 @@
             </div>
             <div class="card-body">
               <h3 class="card-title">Calvin University Mars Rover Design Team</h3>
-              <p class="card-text">I am an active member of Calvin's <a href="http://calvinmars.com/" target="_blank" class="project-link">Mars Rover Team.</a> I designed, modeled, and 3D printed the "wrist" of the rover arm, achieving the 4th and
+              <p class="card-text">I was an active member of Calvin's <a href="http://calvinmars.com/" target="_blank" class="project-link">Mars Rover Team.</a> I designed, modeled, and 3D printed the "wrist" of the rover arm, achieving the 4th and
                 5th
-                degrees of freedom. I was also responsible for designing and 3D printing parts for other parts of the rover.</p>
+                degrees of freedom. I was also responsible for designing and 3D printing parts for other parts of the rover. The Rover team was restructured and took on a new challenge as the Robotic Football Team.</p>
             </div>
           </div>
 
@@ -111,9 +128,12 @@
             </div>
             <div class="card-body">
               <h3 class="card-title">Python Chess</h3>
-              <p class="card-text">I am currently working on creating a game of chess in Python, complete with board, pieces, move logic, and highlighting.
-              The project uses nested dictionaries and other data structures.</p>
-            </div>
+              <p class="card-text">I created a 2-person game of chess in Python with TkInter. The game is complete with move logic
+                and highlighting built in.</p>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><a class="project-link" target="_blank" href="https://github.com/bendeweerd/python_chess">Github Repo</a></li>
+                </ul>
+              </div>
           </div>
 
           <div class="card text-white mb-3">
@@ -137,9 +157,11 @@
               <h3 class="card-title">Robotic Arm</h3>
               <p class="card-text">I am currently designing and building my own robotic arm.  While it is a work in progress, I have designed and constructed custom NEMA 17 gearboxes and a slew bearing for the arm's base.  I plan to control the arm with a raspberry pi and Arduino Due, which
               has a higher clock speed that will allow me to smoothly and simultaneously control the five stepper motors.</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a class="project-link" target="_blank" href="https://github.com/bendeweerd/robotic_arm">Github Repo</a></li>
+              </ul>
             </div>
           </div>
-
 
           <div class="card text-white mb-3">
             <div id="project-carousel" class="carousel slide card-img-top carousel-fade" data-ride="carousel" data-interval="5000">
@@ -161,7 +183,7 @@
             <div class="card-body">
               <h3 class="card-title">Luminous Display Pedestal</h3>
               <p class="card-text">This was a hybrid woodshop and Arduino/programming project. I constructed the table in the FHS woodshop, then added the LED strips and controller that I programmed at home. The <a href="displaypedestalcode.ino"
-                  class="project-link" target="_blank" download>Arduino Sketch</a> for the project contains 398 lines of code, most of which I wrote from scratch.</p>
+                  class="project-link" target="_blank" download>Arduino Sketch</a> for the project showcases some of my earliest programming experience (or lack thereof).</p>
             </div>
           </div>
 
@@ -259,25 +281,6 @@
             </div>
           </div>
 
-          <!-- <div class="card text-white mb-3">
-            <div id="project-carousel" class="carousel slide card-img-top carousel-fade" data-ride="carousel" data-interval="5000">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img class="d-block w-100 carousel-image" src="images/mountains/mountain2.jpg" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100 carousel-image" src="images/mountains/mountainpair.jpg" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100 carousel-image" src="images/mountains/curapic.png" alt="Third slide">
-                </div>
-              </div>
-            </div>
-            <div class="card-body">
-              <h3 class="card-title">3D-Printed Mountain Range Reliefs</h3>
-              <p class="card-text">This project combined a 3D-printed mountain range with a simple cherry base. My mother grew up near this mountain range, and I made these as gifts for her and my aunt.</p>
-            </div>
-          </div> -->
         </div>
       </div>
     </div>
@@ -290,12 +293,12 @@
         <p class="footer-text">Email</p>
       </div>
     </a>
-    <a href="https://www.linkedin.com/in/ben-deweerd-4a1811196/" target="_blank" class="footer-link">
+    <a href="https://www.linkedin.com/in/bendeweerd" target="_blank" class="footer-link">
       <div class="footer-inner footer-inner-hover">
         <p class="footer-text">Linkedin</p>
       </div>
     </a>
-    <p>© 2020 Ben DeWeerd</p>
+    <p>© 2021 Ben DeWeerd</p>
   </section>
 
 

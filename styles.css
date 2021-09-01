@@ -54,14 +54,12 @@ a:hover {
   border-radius: 100%;
 }
 
-
-
 .introduction-text {
   padding: 3% 20%;
   font-size: 2.5rem;
 }
 
-#intro {
+.intro {
   color: #fff;
   background-color: #000;
   padding-top: 3rem;
@@ -87,12 +85,16 @@ a:hover {
   border: 2px solid white;
 }
 
+.list-group-item{
+  background-color: #000;
+  padding: 0.25rem;
+}
+
 .card-img-top {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
 
-/* !!!!!Experiment Begins Here!!!!! */
 .responsive-cards {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -122,7 +124,6 @@ a:hover {
   }
 }
 
-/* !!!!!Experiment Ends Here!!!!! */
 #footer {
   border-top: 2px solid #0484d9;
   background-color: #000;
@@ -132,8 +133,6 @@ a:hover {
 .footer-link {
   display: inline-block;
 }
-
-
 
 .footer-text {
   margin: 1rem;
@@ -155,7 +154,7 @@ a:hover {
     font-size: 3rem;
   }
 
-  #intro {
+  .intro {
     padding-top: 4rem;
   }
 
@@ -167,8 +166,4 @@ a:hover {
     font-size: 1.5rem;
     padding: 3% 10%;
   }
-
-  /* .card-body{
-    padding: .75rem;
-  } */
 }
